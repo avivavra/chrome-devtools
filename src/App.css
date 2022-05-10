@@ -1,0 +1,80 @@
+html,
+body,
+#root,
+.app {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-color: floralwhite;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  padding: 0.5em;
+  justify-content: space-between;
+  background-color: aqua;
+  align-items: center;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: center;
+  width: 15em;
+}
+
+.navbar-summary {
+  display: flex;
+  justify-content: center;
+  width: 10em;
+}
+
+.navbar-item {
+  margin: 0.3em;
+}
+
+.site-logo {
+  height: 2em;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+  padding: 1em;
+  background-color: lemonchiffon;
+}
+
+.gallery-item {
+  border: 0.04em solid #ccc;
+  width: 25em;
+}
+
+.gallery-item:hover {
+  border: 0.04em solid #777;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  padding: 0.5em;
+  background-color: bisque;
+}
